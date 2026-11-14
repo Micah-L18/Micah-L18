@@ -28,6 +28,31 @@ class Micah(Programmer, VolleyballPlayer):
 
 <!-- Add a line or two about yourself here: what you build, what you're learning, how to reach you. -->
 
+## 📋 The playbook
+
+| On the court | In the codebase |
+| :-- | :-- |
+| 🏐 **Serve** | `git push`: put it in play |
+| 🤲 **Pass** | Read the ticket before touching anything |
+| 🙌 **Set** | Open a clean PR someone else can finish |
+| 💥 **Spike** | Ship to production |
+| 🧱 **Block** | CI catching it at the net |
+| 🤿 **Dig** | The 2 a.m. hotfix |
+| 🟡 **Libero** | The linter: never scores, saves everything |
+| ⏱️ **Timeout** | Coffee |
+| 🔄 **Side out** | `git revert` |
+
+## 🗓️ Season recap
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Micah-L18/Micah-L18/output/commit-grid-dark.svg">
+  <img src="https://raw.githubusercontent.com/Micah-L18/Micah-L18/output/commit-grid.svg" alt="Animated grid of my contributions over the last 12 months" width="860">
+</picture>
+
+</div>
+
 ## 🔁 My rotation
 
 <div align="center">
