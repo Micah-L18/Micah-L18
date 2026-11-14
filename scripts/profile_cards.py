@@ -148,8 +148,6 @@ def render_grid(total, weeks, t):
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img" '
         'aria-label="Contribution grid: %s contributions in the last year">' % (W, H, W, H, "{:,}".format(total)),
         "<style>%s</style>" % "".join(css),
-        '<rect x="1" y="1" width="%d" height="%d" rx="16" fill="%s" stroke="%s" stroke-width="2"/>'
-        % (W - 2, H - 2, t["bg"], t["border"]),
         '<text x="%d" y="30" font-size="13" font-weight="700" fill="%s" letter-spacing="1.5">SEASON RECAP'
         '<tspan fill="%s" font-weight="400" letter-spacing="0"> · last 12 months</tspan></text>'
         % (GX, t["text"], t["muted"]),
@@ -230,8 +228,6 @@ def render_langs(langs, t):
         "<style>%s</style>" % "".join(css),
         '<defs><clipPath id="pill"><rect x="%d" y="%d" width="%d" height="%d" rx="%d"/></clipPath></defs>'
         % (GX, bar_y, bar_w, bar_h, bar_h // 2),
-        '<rect x="1" y="1" width="%d" height="%d" rx="16" fill="%s" stroke="%s" stroke-width="2"/>'
-        % (W - 2, h - 2, t["bg"], t["border"]),
         '<text x="%d" y="30" font-size="13" font-weight="700" fill="%s" letter-spacing="1.5">LANGUAGES'
         '<tspan fill="%s" font-weight="400" letter-spacing="0"> · share of code in public repos</tspan></text>'
         % (GX, t["text"], t["muted"]),
