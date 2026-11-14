@@ -25,8 +25,8 @@ jobs:
             dist/github-snake.svg?color_snake=#1e5fbf&color_dots=#ebedf0,#fde68a,#fcd34d,#f5b301,#d97706
             dist/github-snake-dark.svg?color_snake=#f5c518&color_dots=#161b22,#0e3a7a,#1e5fbf,#3b82f6,#93c5fd
 
-      - name: Generate animated contribution grid
-        run: python3 scripts/contrib_grid.py "${{ github.repository_owner }}" dist
+      - name: Generate contribution grid and languages cards
+        run: python3 scripts/profile_cards.py "${{ github.repository_owner }}" dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

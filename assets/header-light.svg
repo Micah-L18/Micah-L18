@@ -42,12 +42,7 @@
   <g>
     <animateMotion dur="2.6s" repeatCount="indefinite" calcMode="spline" path="M535,138 Q680,-34 825,138 Q680,-14 535,138" keyPoints="0;0.25;0.5;0.75;1" keyTimes="0;0.25;0.5;0.75;1" keySplines="0 0 0.58 1;0.42 0 1 1;0 0 0.58 1;0.42 0 1 1"/>
     <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.3s" repeatCount="indefinite"/>
-        <circle r="14" fill="#f5c518" stroke="#1f2328" stroke-width="1.5"/>
-        <g fill="none" stroke="#1e5fbf" stroke-width="2.2" stroke-linecap="round">
-          <path d="M-13,-3 Q0,-10 13,-3"/>
-          <path d="M-5,-12.5 Q3,0 -5,12.5"/>
-          <path d="M7,-11.5 Q-4,2 9,10"/>
-        </g>
+        <clipPath id="ballclip"><circle r="16"/></clipPath><circle r="16" fill="#fbfbf6"/><g clip-path="url(#ballclip)"><path d="M1.65,-5.36 Q10.46,4.72 22.95,9.55 L23.87,4.15 Q11.38,-0.68 2.57,-10.76 Z" fill="#f5c518"/><path d="M4.25,4.86 Q-8.89,7.45 -19.32,15.85 L-15.10,19.34 Q-4.67,10.95 8.47,8.35 Z" fill="#1e5fbf"/><path d="M-5.90,2.00 Q-1.58,-10.67 -3.63,-23.90 L-8.77,-22.00 Q-6.71,-8.77 -11.03,3.91 Z" fill="#f5c518"/><path d="M0.00,0.50 Q4.32,-12.17 2.27,-25.40 M1.65,-5.36 Q10.46,4.72 22.95,9.55 M2.57,-10.76 Q11.38,-0.68 23.87,4.15 M0.00,0.50 Q8.81,10.58 21.30,15.41 M4.25,4.86 Q-8.89,7.45 -19.32,15.85 M8.47,8.35 Q-4.67,10.95 -15.10,19.34 M0.00,0.50 Q-13.13,3.09 -23.56,11.49 M-5.90,2.00 Q-1.58,-10.67 -3.63,-23.90 M-11.03,3.91 Q-6.71,-8.77 -8.77,-22.00" fill="none" stroke="#1b2a4a" stroke-width="1.1" stroke-linecap="round"/></g><circle r="16" fill="none" stroke="#1b2a4a" stroke-width="1.4000000000000001"/>
     </g>
   </g>
 </svg>
